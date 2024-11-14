@@ -15,6 +15,7 @@ app.use('/images', (req, res, next) => {
             console.error('Error al guardar el log; ',err);
         }
     });
+    console.log(log)
     next();
 });
 
